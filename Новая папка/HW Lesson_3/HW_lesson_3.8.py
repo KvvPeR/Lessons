@@ -1,0 +1,12 @@
+countries = ['krivoy rog','france','usa','russia','ukraine']
+print(countries)
+countries.sort()
+print(countries)
+countries.reverse()
+print(countries)
+countries.reverse()
+print(countries)
+countries.sort()
+print(countries)
+countries.sort()
+print(countries)

@@ -1,0 +1,17 @@
+cars = []
+cars.append('lamba')
+cars.append('honda')
+cars.append('bmw')
+cars.append('suzuki')
+cars.append('merc')
+cars.append('jigul')
+cars.append('ferrari')
+cars.append('cherry')
+print(cars)
+cars.insert(4,'nigger')
+del cars[4]
+print(cars)
+del_item = cars.pop(3)
+print(cars)
+print(del_item)
+cars.remove('jigul')

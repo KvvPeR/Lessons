@@ -1,0 +1,12 @@
+name = []
+name.append('renat')
+name.append('kirill')
+name.append('ivan')
+name.append('zxc')
+name.append('qwe')
+name.append('misha')
+name.append('dana')
+name.append('nela')
+name.append('artem')
+name.append('aleg')
+print(name)
