@@ -14,6 +14,9 @@ class Bank:
             print('You have not enought money!')
         else:
             print(f'You withdraw from bank: {self._withdraw}')
+    def check_balance1(self, balance1, _withdraw):
+        balance1 +=  _withdraw
+        print(f'Your balance: {self.balance1}')
 n = int(input('How much you want to deposit?: '))
 m = int(input('How much you want to withdraw?: '))
 balance = 0
@@ -22,5 +25,5 @@ account = Bank(balance1, balance, n, m)
 account.deposit(n)
 account.check_balance(balance1, balance, n)
 account.withdraw(m, balance1)
-account.check_balance(balance1, balance, n)
+account.check_balance1(balance1, m)
         
